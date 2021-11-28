@@ -9,7 +9,10 @@ if(@ARGV != 0){
 ##
 my $folder="Example_data";
 my $p=1e-5;
-
+## Files
+my @file=("DMSO-1.txt", "DMSO-2.txt", "DMSO-3.txt", "DOX-1.txt", "DOX-2.txt", "DOX-3.txt");
+my @name=("DMSO-1", "DMSO-2", "DMSO-3", "DOX-1", "DOX-2", "DOX-3");
+my @vs=("3,4,5","3,4,5","3,4,5");
 
 ## iGPS file
 open IGPS,"$folder/All.igps.txt" or die $!;
@@ -52,9 +55,7 @@ foreach my $k(sort keys %site){
 }
 close OUT;
 
-## Files
-my @file=("DMSO-1.txt", "DMSO-2.txt", "DMSO-3.txt", "DOX-1.txt", "DOX-2.txt", "DOX-3.txt");
-my @name=("DMSO-1", "DMSO-2", "DMSO-3", "DOX-1", "DOX-2", "DOX-3");
+
 #
 my $head="Kinase\tPredictor";
 my @pk_sum=(0) x ($#file+1);
@@ -102,7 +103,6 @@ foreach my $k(0..$#file){
 print "@pk_sum\n";
 
 ## 
-my @vs=("3","4","5");
 open VIEW,"> $folder/kinase-view-S.txt" or die $!;
 print VIEW "Kinase\tID\tPredictor";
 my @outfile;
