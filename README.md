@@ -52,4 +52,6 @@ Expected run time is depended on the number of p-sites quantified, it will take 
 Dr. Yu Xue: xueyu@hust.edu.cn<br>
 Dr. Pengyu Huang: huangpengyu@yeah.net<br>
 Dr. Yilai Shu: yilai_shu@fudan.edu.cn<br>
-Shaofeng Lin: linshaofeng@hust.edu.cn
+Yangyang Yuan: yuanyy@shanghaitech.edu.cn<br>
+Shaofeng Lin: linshaofeng@hust.edu.cn<br>
+Xuran Zhuang: zhuangxr@shanghaitech.edu.cn
