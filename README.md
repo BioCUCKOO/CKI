@@ -39,6 +39,18 @@ Perl (v5.26.3 or later) program with modules (Statistics::Distributions).
 All codes could run on a "normal" desktop computer, no non-standard hardware is needed.<br>
 <br>
 
+# Instruction
+For users who want to run CKI in own computer, files contain the information of mRNAs and p-sites should be first generated as the form demonstrated in Example_data/.
+"All.igps.txt" contains the upstream regulatory PKs of p-sites predicted by iGPS (http://igps.biocuckoo.org/). 
+"mRNA-DOX-NT.txt" contains the information of PKs in transcriptional level. 
+"Site-Raw.txt" contains all p-site with intensities of samples, and split into single file of individual sample.
+At last, once you have all above files ready, you can open the command prompt in your computer with Perl v5.26.3 installed, and open the directory in which you hava saved perl codes. After run the command "perl CKI.pl" to cpmpile the perl program, the result file "CKI-kinase.txt" was generated which contains the outputs of central protein kinases.
+
+# Additional information
+Expected run time is depended on the number of p-sites quantified, it will take about 3 minutes for 5,000 sites.
+
 # Contact
 Dr. Yu Xue: xueyu@hust.edu.cn<br>
+Dr. Pengyu Huang: huangpengyu@yeah.net<br>
+Dr. Yilai Shu: yilai_shu@fudan.edu.cn<br>
 Shaofeng Lin: linshaofeng@hust.edu.cn
