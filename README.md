@@ -4,7 +4,7 @@ The central kinase inference (CKI) algorithm, a trans-omics-based computational 
 
 # The description of each source code
 ### CKI.pl
-The program infers central PKs from the integration of mRNA expression, substrate p-site intensity and network state for each PK. The usage of the code is shown as below: <br><br>
+The program infers central PKs from the integration of mRNA expression, substrate p-site intensity and kinase-substrate network for each PK. The usage of the code is shown as below: <br><br>
 perl CKI.pl
 <br>
 
@@ -36,7 +36,7 @@ Linux: CentOS linux 7.8.2003
 Perl (v5.26.3 or later) program with modules (Statistics::Distributions).
 
 ### Hardware Requirements
-All codes and softwares could run on a "normal" desktop computer, no non-standard hardware is needed.<br>
+All codes could run on a "normal" desktop computer, no non-standard hardware is needed.<br>
 <br>
 
 # Contact
